@@ -17,5 +17,5 @@ with open('text_4.txt') as eng_text:
     blob = TextBlob(text)
     rus_text = str(blob.translate(to='ru'))
     print(rus_text)
-    with open('rus_text.txt', 'w') as rus_tx:
+    with open('task5_4_result.txt', 'w') as rus_tx:
         rus_tx.write(rus_text)
